@@ -1,0 +1,15 @@
+/* Style for the input fields */
+.input-field {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.filter{
+    margin-bottom: 10px;
+}
+
+/* Align the labels and input fields */
+label {
+  margin-right: 10px;
+}

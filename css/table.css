@@ -1,0 +1,30 @@
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+/* Style for table header */
+table thead th {
+  background-color: #2A3456;
+  color: #fff;
+}
+
+/* Style for alternating table rows */
+table tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Center the table with left and right padding */
+.container {
+  margin-top: 40px;
+  padding: 0 35px;
+}

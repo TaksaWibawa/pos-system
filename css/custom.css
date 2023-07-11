@@ -1,0 +1,86 @@
+body {
+  background-color: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+.logo h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  font-family: 'Raleway', sans-serif;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #bfbfbf;
+  padding: 10px 5px;
+  background-color: transparent;
+  box-shadow: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="password"]:focus {
+  border-color: #337ab7;
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  border-color: #337ab7;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #286090;
+  border-color: #286090;
+}
+
+.register p {
+  font-size: 14px;
+}
+
+.register a {
+  color: #337ab7;
+  font-weight: 600;
+}
+
+.alert {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 0;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d0e9c6;
+  color: #3c763d;
+}
